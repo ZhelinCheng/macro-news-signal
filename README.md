@@ -1,3 +1,5 @@
+[简体中文](./README_zh-CN.md) | **English**
+
 # Macro News Signal
 
 > **AI Skill** — An intelligent market analysis skill that transforms real-time global news and key macro indicators into actionable investment insights.
