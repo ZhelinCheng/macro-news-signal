@@ -32,3 +32,4 @@
 |--------|-----|----------|
 | US10YTIP | https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10YTIP&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1 | FormattedQuoteResult.FormattedQuote[].last |
 | ICE U.S. Dollar Index | https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.DXY&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1 | FormattedQuoteResult.FormattedQuote[].last |
+| Gold COMEX | https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=%40GC.1&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1 | FormattedQuoteResult.FormattedQuote[].last |

@@ -101,3 +101,53 @@
 | `timeZone` | String | 数据所处时区 | `EDT` (美国东部夏令时) |
 | `is_halted` | String | 是否停牌/交易中断 | `N` (否) |
 | `issue_id` | String | 证券/指数唯一标识码 | `586968` |
+
+
+## COMEX 黄金期货 (@GC.1) 字段说明
+
+本文档用于说明 **COMEX 黄金期货 (Gold COMEX Jun'26)** 的行情数据字段含义。
+
+### 1. 证券基础信息 (General Information)
+| 字段名 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `symbol` | String | 期货连盘代码 | `@GC.1` |
+| `altSymbol` | String | 具体合约代码 | `GCM26` (M 代表 6月, 26 代表 2026年) |
+| `name` | String | 证券全称 | `Gold COMEX (Jun'26)` |
+| `type` | String | 资产大类 | `DERIVATIVE` (衍生品) |
+| `subType` | String | 资产子类 | `Future` (期货) |
+| `exchange` | String | 交易所名称 | `CEC:Commodities Exchange Centre` |
+
+### 2. 价格行情 (Price Quotes)
+| 字段名 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `last` | String | **最新成交价** (美元/盎司) | `4,702.70` |
+| `open` | String | 今日开盘价 | `4,783.00` |
+| `high` | String | 今日最高价 | `4,825.90` |
+| `low` | String | 今日最低价 | `4,580.40` |
+| `previous_day_closing`| String | 前一交易日收盘价 | `4,813.10` |
+| `settlePrice` | String | **结算价** (用于每日无负债结算) | `4679.70` |
+
+### 3. 涨跌与交易量 (Change & Volume)
+| 字段名 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `change` | String | 价格绝对涨跌额 | `-110.40` |
+| `change_pct` | String | 价格涨跌百分比 | `-2.29%` |
+| `changetype` | String | 变动方向 | `DOWN` (下跌) |
+| `volume` | String | 成交量 (手) | `186,430` |
+| `open_interest` | String | **持仓量** (未平仓合约数) | `264294` |
+
+### 4. 期货特定属性 (Future Specifics)
+| 字段名 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `expiration_date` | String | **合约到期/最后交易日** | `2026-06-26` |
+| `settleDate` | String | 结算日期 | `2026-04-02` |
+| `last_time` | String | 最后交易日期 | `2026-04-02` |
+
+## 5. 历史区间与系统状态 (History & Status)
+| 字段名 | 类型 | 说明 | 示例 |
+| :--- | :--- | :--- | :--- |
+| `yrhiprice` | String | 52 周最高价 | `5,586.20` |
+| `yrloprice` | String | 52 周最低价 | `2,970.40` |
+| `realTime` | String | 是否实时数据 | `false` (数据存在延迟) |
+| `curmktstatus` | String | 市场状态 | `REG_MKT` (常规交易) |
+| `is_halted` | String | 是否停牌 | `N` (否) |
