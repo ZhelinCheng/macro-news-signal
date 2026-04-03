@@ -12,7 +12,7 @@ Macro News Signal converts fragmented global financial news and macroeconomic in
 
 ## Demo
 
-![Skill Result](https://fastly.jsdelivr.net/gh/ZhelinCheng/macro-news-signal@master/screenshot/result.png)
+![Skill Result](./screenshot/result.png)
 
 ---
 
