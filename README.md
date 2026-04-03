@@ -85,4 +85,4 @@ Aggregate analysis results in the following multi-dimensional ways to generate s
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) for details.
+MIT-0 License - This project is released into the public domain under the MIT-0 license with no rights reserved.

@@ -85,4 +85,4 @@ curl 'url' \
 
 ## 许可证
 
-MIT 许可证 - 详见 [LICENSE](LICENSE)。
+MIT-0 许可证 - 本项目以 MIT-0 许可证公开发布，不保留任何权利。
