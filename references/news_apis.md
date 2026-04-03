@@ -19,6 +19,8 @@
 1. 彭博社最新报道Folo订阅查询：https://app.folo.is/share/feeds/70844804758158336
 2. RSSHub公共实例查询：https://docs.rsshub.app/zh/guide/instances
 
+以上来源均可查，属于Folo和RSSHub官方提供，可做为可信来源。
+
 ### 央行RSS
 
 | 来源 | URL | 覆盖范围 |
