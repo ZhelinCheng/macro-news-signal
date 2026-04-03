@@ -12,7 +12,7 @@
 
 ## 演示
 
-![运行效果](./screenshot/result.png)
+![运行效果](https://cdn.jsdelivr.net/gh/ZhelinCheng/macro-news-signal@master/screenshot/result.png)
 
 ---
 
