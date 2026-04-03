@@ -2,7 +2,7 @@
 
 # Macro News Signal
 
-An intelligent market analysis skill that transforms real-time global news and key macro indicators into actionable investment insights.
+> **AI Skill** - An intelligent market analysis skill that transforms real-time global news and key macro indicators into actionable investment insights.
 
 ## Overview
 
