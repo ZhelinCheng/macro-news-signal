@@ -4,16 +4,19 @@
 
 ### 主要金融新闻RSS
 
-| 来源 | URL | 覆盖范围 |
-|--------|-----|----------|
-| 彭博社 | https://bbg.buzzing.cc/feed.json | 全球新闻 |
-| 彭博社 | https://feeds.bloomberg.com/markets/news.rss | 市场 |
-| CNBC | https://www.cnbc.com/id/100003114/device/rss/rss.html | 商业 |
-| 金融时报 | https://www.ft.com/rss/home | 全球金融 |
-| 华尔街日报市场 | https://feeds.a.dj.com/rss/RSSMarketsMain.xml | 市场 |
-| 经济学人 | https://www.economist.com/finance-and-economics/rss.xml | 宏观/金融 |
-| 联合早报 | http://rss.spriple.org/zaobao/realtime/world | 国际-即时 |
-| 同花顺 | https://rss.spriple.org/10jqka/realtimenews | 24小时全球财经 |
+| 来源 | URL | 覆盖范围 | 说明 |
+|--------|-----|----------|----|
+| 彭博社最新报道 | https://bbg.buzzing.cc/feed.json | 最新新闻 | Folo订阅使用的地址 |
+| 彭博社 | https://feeds.bloomberg.com/markets/news.rss | 市场 | 无 |
+| CNBC | https://www.cnbc.com/id/100003114/device/rss/rss.html | 商业 | 无|
+| 金融时报 | https://www.ft.com/rss/home | 全球金融 |无 |
+| 华尔街日报市场 | https://feeds.a.dj.com/rss/RSSMarketsMain.xml | 市场 |无 |
+| 经济学人 | https://www.economist.com/finance-and-economics/rss.xml | 宏观/金融 |无 |
+| 联合早报 | http://rss.spriple.org/zaobao/realtime/world | 国际-即时 | RSSHub公共实例地址 |
+| 同花顺 | https://rss.spriple.org/10jqka/realtimenews | 24小时全球财经 | RSSHub公共实例地址 |
+
+彭博社最新报道Folo订阅：https://app.folo.is/share/feeds/70844804758158336
+RSSHub公共实例查询：https://docs.rsshub.app/zh/guide/instances
 
 ### 央行RSS
 
