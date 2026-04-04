@@ -119,7 +119,7 @@ Aggregate analysis results to generate structured reports:
 | File            | Content                                      |
 |-----------------|----------------------------------------------|
 | `news_apis.md`  | News API documentation and endpoints         |
-| `data_schema.md`| Index data schema documentation              |
+| `output_format.md`| Output format              |
 
 ---
 
